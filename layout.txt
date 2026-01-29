@@ -1,0 +1,873 @@
+Book: Legal Information
+    Page: Legal Information Overview
+    Page: Open Game License
+    Page: Creative Commons
+    Page: Open RPG Creative License
+
+Book: Adventurers Guide
+    Chapter: Introduction
+        Page: The Core Rule
+        Page: Advantage, Disadvantage, and Expertise
+    Chapter: Character Creation
+        Page: Determine Ability Scores
+        Page: Gear Up for Adventurers
+        Page Beyond the First Steps
+        Page: The World and You
+    Chapter: Origins
+        Page: Heritage
+            Page: Dragonborn
+            Page: Dwarf
+            Page: Elf
+            Page: Gnome
+            Page: Halfling
+            Page: Human
+            Page: Orc
+            Page: Planetouched
+        Page: Cultures
+            Page: Caravanner
+            Page: Circusfolk
+            Page: Collegiate
+            Page: Cossmopolitan
+            Page: Deep Dwarf
+            Page: Deep Gnome
+            Page: Dragonbound
+            Page Dragon Cultures
+            Page: Eladrin
+            Page: Forest Gnome
+            Page: Forgotten Folx
+            Page: Forsaken
+            Page: Godbound
+            Page: High Elf
+            Page: Hill Dwarf
+            Page Imperial
+            Page: Itinerant
+            Page: Kithbáin Halfling
+            Page: Lone Wanderer
+            Page: Mountain Dwarf
+            Page: Mustbairn Halfling
+            Page: Nomad
+            Page: Settler
+            Page: Shadow Elf
+            Page: Steamforged
+            Page: Stoic Orc
+            Page: Stoneworthy
+            Page: Stout Halfling
+            Page: Tinker Gnome
+            Page: Tunnel Halfling
+            Page: Tyrannized
+            Page: Villager
+            Page: Warhordling
+            Page: Wildling
+            Page: Wood Elf
+        Page: Backgrounds
+            Page: Acolyte
+            Page: Artisan
+            Page: Charlatan
+            Page: Criminal
+            Page: Cultist
+            Page: Entertainer
+            Page:Exile
+            Page: Farmer
+            Page: Folk Hero
+            Page: Gambler
+            Page: Guard
+            Page: Guildmember
+            Page: Hermit
+            Page: Marauder
+            Page: Noble
+            Page: Outlander
+            Page: Sage
+            Page: Sailor
+            Page: Soldier
+            Page: Trader
+            Page: Urchin
+        Page: Destinies
+            Page: Chaos
+            Page: Coming of Age
+            Page: Devotion
+            Page: Dominion
+            Page: Excellence
+            Page: Knowledge
+            Page: Metamorphosis
+            Page: Revenge
+            Page: Underdog
+            Page: Wealth
+    Chapter: Adventuring Classes
+        Page: Adept
+            Page: Level 1
+            Page: Level 2
+            Page: Level 3
+            Page: Level 4
+            Page: Level 5
+            Page: Level 6
+            Page: Level 7
+            Page: Level 8
+            Page: Level 9
+            Page: Level 10
+            Page: Level 11
+            Page: Level 12
+            Page: Level 13
+            Page: Level 14
+            Page: Level 15
+            Page: Level 16
+            Page: Level 17
+            Page: Level 18
+            Page: Level 19
+            Page: Level 20 
+        Page: Bard
+            Page: Level 1
+            Page: Level 2
+            Page: Level 3
+            Page: Level 4
+            Page: Level 5
+            Page: Level 6
+            Page: Level 7
+            Page: Level 8
+            Page: Level 9
+            Page: Level 10
+            Page: Level 11
+            Page: Level 12
+            Page: Level 13
+            Page: Level 14
+            Page: Level 15
+            Page: Level 16
+            Page: Level 17
+            Page: Level 18
+            Page: Level 19
+            Page: Level 20 
+        Page: Berserker
+            Page: Level 1
+            Page: Level 2
+            Page: Level 3
+            Page: Level 4
+            Page: Level 5
+            Page: Level 6
+            Page: Level 7
+            Page: Level 8
+            Page: Level 9
+            Page: Level 10
+            Page: Level 11
+            Page: Level 12
+            Page: Level 13
+            Page: Level 14
+            Page: Level 15
+            Page: Level 16
+            Page: Level 17
+            Page: Level 18
+            Page: Level 19
+            Page: Level 20  
+        Page: Cleric
+            Page: Level 1
+            Page: Level 2
+            Page: Level 3
+            Page: Level 4
+            Page: Level 5
+            Page: Level 6
+            Page: Level 7
+            Page: Level 8
+            Page: Level 9
+            Page: Level 10
+            Page: Level 11
+            Page: Level 12
+            Page: Level 13
+            Page: Level 14
+            Page: Level 15
+            Page: Level 16
+            Page: Level 17
+            Page: Level 18
+            Page: Level 19
+            Page: Level 20  
+        Page: Druid
+            Page: Level 1
+            Page: Level 2
+            Page: Level 3
+            Page: Level 4
+            Page: Level 5
+            Page: Level 6
+            Page: Level 7
+            Page: Level 8
+            Page: Level 9
+            Page: Level 10
+            Page: Level 11
+            Page: Level 12
+            Page: Level 13
+            Page: Level 14
+            Page: Level 15
+            Page: Level 16
+            Page: Level 17
+            Page: Level 18
+            Page: Level 19
+            Page: Level 20 
+        Page: Fighter
+            Page: Level 1
+            Page: Level 2
+            Page: Level 3
+            Page: Level 4
+            Page: Level 5
+            Page: Level 6
+            Page: Level 7
+            Page: Level 8
+            Page: Level 9
+            Page: Level 10
+            Page: Level 11
+            Page: Level 12
+            Page: Level 13
+            Page: Level 14
+            Page: Level 15
+            Page: Level 16
+            Page: Level 17
+            Page: Level 18
+            Page: Level 19
+            Page: Level 20 
+        Page: Herald
+            Page: Level 1
+            Page: Level 2
+            Page: Level 3
+            Page: Level 4
+            Page: Level 5
+            Page: Level 6
+            Page: Level 7
+            Page: Level 8
+            Page: Level 9
+            Page: Level 10
+            Page: Level 11
+            Page: Level 12
+            Page: Level 13
+            Page: Level 14
+            Page: Level 15
+            Page: Level 16
+            Page: Level 17
+            Page: Level 18
+            Page: Level 19
+            Page: Level 20 
+        Page: Marshal
+            Page: Level 1
+            Page: Level 2
+            Page: Level 3
+            Page: Level 4
+            Page: Level 5
+            Page: Level 6
+            Page: Level 7
+            Page: Level 8
+            Page: Level 9
+            Page: Level 10
+            Page: Level 11
+            Page: Level 12
+            Page: Level 13
+            Page: Level 14
+            Page: Level 15
+            Page: Level 16
+            Page: Level 17
+            Page: Level 18
+            Page: Level 19
+            Page: Level 20 
+        Page: Ranger
+            Page: Level 1
+            Page: Level 2
+            Page: Level 3
+            Page: Level 4
+            Page: Level 5
+            Page: Level 6
+            Page: Level 7
+            Page: Level 8
+            Page: Level 9
+            Page: Level 10
+            Page: Level 11
+            Page: Level 12
+            Page: Level 13
+            Page: Level 14
+            Page: Level 15
+            Page: Level 16
+            Page: Level 17
+            Page: Level 18
+            Page: Level 19
+            Page: Level 20  
+        Page: Rougue
+            Page: Level 1
+            Page: Level 2
+            Page: Level 3
+            Page: Level 4
+            Page: Level 5
+            Page: Level 6
+            Page: Level 7
+            Page: Level 8
+            Page: Level 9
+            Page: Level 10
+            Page: Level 11
+            Page: Level 12
+            Page: Level 13
+            Page: Level 14
+            Page: Level 15
+            Page: Level 16
+            Page: Level 17
+            Page: Level 18
+            Page: Level 19
+            Page: Level 20
+        Page: Sorcerer
+            Page: Level 1
+            Page: Level 2
+            Page: Level 3
+            Page: Level 4
+            Page: Level 5
+            Page: Level 6
+            Page: Level 7
+            Page: Level 8
+            Page: Level 9
+            Page: Level 10
+            Page: Level 11
+            Page: Level 12
+            Page: Level 13
+            Page: Level 14
+            Page: Level 15
+            Page: Level 16
+            Page: Level 17
+            Page: Level 18
+            Page: Level 19
+            Page: Level 20   
+        Page: Warlock
+            Page: Level 1
+            Page: Level 2
+            Page: Level 3
+            Page: Level 4
+            Page: Level 5
+            Page: Level 6
+            Page: Level 7
+            Page: Level 8
+            Page: Level 9
+            Page: Level 10
+            Page: Level 11
+            Page: Level 12
+            Page: Level 13
+            Page: Level 14
+            Page: Level 15
+            Page: Level 16
+            Page: Level 17
+            Page: Level 18
+            Page: Level 19
+            Page: Level 20   
+        Page: Wizard
+            Page: Level 1
+            Page: Level 2
+            Page: Level 3
+            Page: Level 4
+            Page: Level 5
+            Page: Level 6
+            Page: Level 7
+            Page: Level 8
+            Page: Level 9
+            Page: Level 10
+            Page: Level 11
+            Page: Level 12
+            Page: Level 13
+            Page: Level 14
+            Page: Level 15
+            Page: Level 16
+            Page: Level 17
+            Page: Level 18
+            Page: Level 19
+            Page: Level 20  
+    Chapter: Equipment
+        Page: Equipment
+        Page: Armor, Shields, and Weaponry
+            Page: Melee Wepons 
+            Page: Ranged Weapons
+            Page: Shields
+            Page: Armour  
+        Page: Adventuring Gear
+            Page: Medicinals
+            Page: Spellcasting Foci
+            Page: Common Poisons
+            Page: Survival Gear
+            Page: Containers
+            Page: Miscellaneous Adventuring Gear
+            Page: Equipment Packs
+            Page: Tools
+        Page: Mounts
+        Page: Mount Gear
+        Page: Vehicles
+        Page: Spending Gold
+        Page: Lifestyle Expences
+        Page: Shopping
+        Page: Services
+        Page: Donating
+        Page: Pets
+        Page: Starting Wealth (should move this)
+        Page: Stronholds
+        Page: Followers
+    Chapter: Multiclassing
+        Page: Multiclassing
+        Page: Feats
+    Chapter: Ability Scores
+        Page: Ability Scores
+        Page: Modifiers
+        Page: Strength
+        Page: Dexterity
+        Page: Constitution
+        Page: Intelligence
+        Page: Wisdom
+        Page: Charisma
+        Page: Working Together
+        Page: Proficiency Bonus
+        Page: Saving Throws
+        Page: Skills
+        Page: Ability Check Criticals
+        Page: Facts and Discoveries
+        Page: Medicine
+    Chapter: Adventuring
+        Page: Time
+        Page: Movement
+        Page: Environment
+        Page: Objects
+        Page: Social Interactions
+        Page: Resting
+        Page: Between Adventuring
+            Page: Craft
+            Page: Gather Information
+            Page: Recovery
+            Page: Research
+            Page: Spellcraft
+            Page: Train
+            Page: Work
+        Page: Prestige Rating
+    Chapter: Combat
+        Page: Turn-Based Action
+        Page: Turn Order
+        Page: Movement and Position
+        Page: Actions in Combat
+        Page: Making an Attack
+        Page: Unseen Attackers and Targets
+        Page: Ranged Attacks
+        Page: Melee Attacks
+        Page: Damage and Recovery
+        Page: Damage Reduction
+        Page: Fatigue, Death, and Doom
+        Page: Knocking a Creature Out
+        Page: Healing and Recovery
+        Page: Temporary Hit Points
+        Page: World Bonuses, Penalties, and Cover
+        Page: Controlling Summons and Multiple Creatures
+        Page: Alternative Turn-Based Action Scenarios
+    Chapter: Combat Maneuvers
+        Page: Combat Traditions
+        Page: Maneuvers in Combat
+        Page: Exertion Pool
+        Page: Basic Maneuvers
+        Page: Combat Manuvers
+        Page: Adamant Mountain Maneuvers
+        Page: Mirrors Glint Maneuvers
+        Page: Mist and Shade Maneuvers
+        Page: Rapid Current Maneuvers
+        Page: Razor's Edge Maneuvers
+        Page: Sanguine Knot Maneuvers
+        Page: Spirited Steed Manuvers
+        Page: Tempered Iron Maneuvers
+        Page: Touch and Claw Maneuvers
+        Page: Unending Wheel Maneuvers
+    Chapter: Spellcasting
+        Page: Knowing and Preparing Spellcasting
+        Page: Castinmg Spells
+        Page: Spell Descriptions
+        Page: Spell Schools
+        page: Spells
+            Page: Accelerando
+            Page: Acid Arrow
+            Page: Acid Splash
+            Page: Aid
+            Page: Air Wave
+            Page: Alarm
+            Page: Altered Strike
+            Page: Alter Self
+            Page: Angel Paradox
+            Page: Animal Friendship
+            Page: Animal Messenger
+            Page: Animal Shapes:
+            Page: Animate Dead
+            Page: Animate Objects
+            Page: Antilife Shell
+            Page: Antimagic Field
+            Page: Antipathy/Sympath
+            Page: Arcane Eye
+            Page: Arcane Hand
+            Page: Arcane Lock
+            Page: Arcane Muscles
+            Page: Arcane Riposte
+            Page: Arcanist's Magic Aura
+            Page: Aspect of The Moon
+            Page: Astral Projection
+            Page: Augary
+            Page: Awaken
+            Page: Bane
+            Page: Banishment
+            Page: Barskin
+            Page: Battlecry Ballad
+            Page: Beacon of Hpe
+            Page: Bestow Curse
+            Page: Black Tentacles
+            Page: Blade Barrier
+            Page: Bless
+            Page: Blight
+            Page: Blindness/Deafness
+            Page: Blink
+            Page: Blood-Writ Bargain
+            Page: Blur
+            Page: Burning Hands
+            Page: Calculate
+            Page: Calculate Retribution
+            Page: Call Lightening
+            Page: Calm Emotions
+            Page: Ceremony
+            Page: Chain Lightening
+            Page: Charm Monster
+            Page: Charm Person
+            Page: Chill Touch
+            Page: Circle of Death
+            Page: Circular Breathing
+            Page: Clairvoyance
+            Page: Clone
+            Page: Cloudkill
+            Page: Cobra's Spit
+            Page: Color Spray
+            Page: Command
+            Page: Commune
+            Page: Commune with Nature
+            Page: Comprehend Languages
+            Page: Cone of Cold
+            Page: Confusion
+            Page: Conjure Animals
+            Page: Conjure Celestial
+            Page: Conjure Elemental
+            Page: Conjure Fey
+            Page: Conjure Minor Elementals
+            Page: Conjure Woodland Beings
+            Page: Contact Other Plane
+            Page: Conntagion
+            Page: Contingency
+            Page: Continual Flame
+            Page: Control Water
+            Page: Control Weather
+            Page: Corpse Explosion
+            Page: Counterspell
+            Page: Create Food and Water
+            Page: Create or Destroy Water
+            Page: Create Undead
+            Page: Creation
+            Page: Cruching Haymaker
+            Page: Cure Wounds
+            Page: Dancing Lights
+            Page: Darklight
+            Page: Darkness
+            Page: Darkvision
+            Page: Daylight
+            Page: Deadweight
+            Page: Death Ward
+            Page: Delayed Blast Fireball
+            Page: Demiplane
+            Page: Detect Evil and Good
+            Page: Detect Magic
+            Page: Detect Poison and Disease
+            Page: Detect Thoughts
+            Page: Dimension Door
+            Page: Disguise Self
+            Page: Disintegrate
+            Page: Dispel Evil and Good
+            Page: Dispel Magic
+            Page: Divination
+            Page: Divine Favor
+            Page: Divine Word
+            Page: Dominate Beast
+            Page: Dominate Monster
+            Page: Dominate Person
+            Page: Dramatic Sting
+            Page: Dream
+            Page: Druidcraft
+            Page: Earth Barrier
+            Page: Earthquake
+            Page: Eldritch Cube
+            Page: Enhanced Ability
+            Page: Enlarge/Reduce
+            Page: Enrage Architecture
+            Page: Entangle
+            Page: Enthrall
+            Page: Etherealness
+            Page: Expeditious Retreat
+            Page: Eyebite
+            Page: Fabricate
+            Page: Faerie Fire
+            Page: Faithful Hound
+            Page: False Life
+            Page: Fear
+            Page: Feather Fall
+            Page: Feeblemind
+            Page: Find Familiar
+            Page: Find Steed
+            Page: Find the Path
+            Page: Find Traps
+            Page: Finger of Death
+            Page: Fireball
+            Page: Fire Bolt
+            Page: Fire Shield
+            Page: Fire Storm
+            Page: Flame Blade
+            Page: Flame Strike
+            Page: Flaming Sphere
+            Page: Flesh to Stone
+            Page: Flex
+            Page: Floating Disk
+            Page: Fly
+            Page: Fog Cloud
+            Page: Forbiddance
+            Page: Forecage
+            Page: Force of Will
+            Page: Force Punch
+            Page: Foresight
+            Page: Forest Army
+            Page: Freedom of Movement
+            Page: Freezing Sphere
+            Page: Friends
+            Page: Gaseous Form
+            Page: Gate
+            Page: Geas
+            Page: Gentle Response
+            Page: Giant Insect
+            Page: Glibness
+            Page: Globe of Invulnerability
+            Page: Glyph of Warding
+            Page: Goodberry
+            Page: Grapevine
+            Page: Grease
+            Page: Greater Invisibility
+            Page: Greater Restoration
+            Page: Guards and Wards
+            Page: Guidance
+            Page: Guiding Bolt
+            Page: Gust of Wind
+            Page: Hallow
+            Page: Hallucinatory Terrain
+            Page: Harm
+            Page: Harmonic Resonance
+            Page: Haste
+            Page: Heal
+            Page: Healing Word
+            Page: Heart of Dis
+            Page: Heat Metal
+            Page: Heroes' Feast
+            Page: Heroism
+            Page: Hideous Laughter
+            Page: Hold Monster
+            Page: Hold Person
+            Page: Holy Aura
+            Page: Hypnotic Pattern
+            Page: Ice Storm
+            Page: Identify
+            Page: Illusory Script
+            Page: Imprisonment
+            Page: Incendiary Cloud
+            Page: Inescapable Maladay
+            Page: Infernal Weapon
+            Page: Inflict Wounds
+            Page: Insect Plague
+            Page: Instant Summons
+            Page: Invigorated Strikes
+            Page: Invisibility
+            Page: Irresistible Dance
+            Page: Jump
+            Page: Knock
+            Page: Legend Lore
+            Page: Lemure Transformation
+            Page: Lesser Restoration
+            Page: Levitate
+            Page: Light
+            Page: Lightening Bolt
+            Page: Locate Animals or Plants
+            Page: Locate Creature
+            Page: Locate Object
+            Page: Longstrider
+            Page: Mage Armor
+            Page: Mage Hand
+            Page: Magic Circle
+            Page: Magic Jar
+            Page: Magic Missile
+            Page: Magic Mouth
+            Page: Magic Weapon
+            Page: Magnificent Mansion
+            Page: Major Image 
+            Page: Mass Cure Wounds
+            Page: Mass Heal
+            Page: Mass Healing World
+            Page: Mass Suggestion
+            Page: Maze
+            Page: Meld Into Stone
+            Page: Mending
+            Page: Mental Grip
+            Page: Message
+            Page: Meteor Swarm
+            Page: Mind Blank
+            Page: Mindshield
+            Page: Minor Illusion
+            Page: Mirage Arcane
+            Page: Mirror Image
+            Page: Mislead
+            Page: Misty Step
+            Page: Modify Memory
+            Page: Moonbeam
+            Page: Move Earth
+            Page: Nondetection
+            Page: Passwall
+            Page: Pass Without Trace
+            Page: Pestilence
+            Page: Phantasmal Killer
+            Page: Phantasmal Talons
+            Page: Phantom Steed
+            Page: Planar Ally
+            Page: Planar Binding
+            Page: Planeshift
+            Page: Plant Growth
+            Page: Poison Skin
+            Page: Polymorph
+            Page: Power Word Kill
+            Page: Power Word Stun
+            Page: Prayer of Healing
+            Page: Prestidigitation
+            Page: Prismic Spray
+            Page: Prismatic Wall
+            Page: Private Sanctum
+            Page: Prduce Flame
+            Page: Programmed Illusion
+            Page: Project Image
+            Page: Protection From Energy
+            Page: Protection From Evil And Good
+            Page: Protection From Poison
+            Page: Purify Food and Drink
+            Page: Rage of the Meek
+            Page: Raise Dead
+            Page: Raise Hell
+            Page: Ray of Enfeeblement
+            Page: Ray of Frost
+            Page: Regenerate
+            Page: Reincarnate
+            Page: Remove Curse
+            Page: Resillient Sphere
+            Page: Resistance
+            Page: Resurrection
+            Page: Reverse Gravity
+            Page: Revivify
+            Page: Rope Trick
+            Page: Sacred Flame
+            Page: Sanctuary
+            Page: Scorching Ray
+            Page: Scrying
+            Page: Searing Equation
+            Page: Secret Chest
+            Page: Seed Bomb
+            Page: See Invisibility
+            Page: Seeming
+            Page: Sending
+            Page: Swquester
+            Page: Shapechange
+            Page: Shatter
+            Page: Shattering Barrage
+            Page: Shield
+            Page: Shield of Faith
+            Page: Shillelagh
+            Page: Shocking Grasp
+            Page: Silence
+            Page: Silent Image
+            Page: Simulacrum
+            Page: Sleep
+            Page: Sleet Storm
+            Page: Slow
+            Page: Soulwrought Fists
+            Page: Spare teh Dying
+            Page: Speak With Animals
+            Page: Speak with Dead
+            Page: Speak with Plants
+            Page: Spider Climb
+            Page: Spike Growth
+            Page: Spirit Guardians
+            Page: Spiritual Weapon
+            Page: Sporesight
+            Page: Stinking Cloud
+            Page: Stone Shape
+            Page: Stoneskin
+            Page: Storm Kicj
+            Page: Storm of Vengence
+            Page: Suggestion
+            Page: Sunbeam
+            Page: Sunburst
+            Page: Symbol
+            Page: Tearful Sonnet
+            Page: Telekinesis
+            Page: Telepathic Bond 
+            Page: Teleport
+            Page: Teleportation Circle
+            Page: Thaumaturgy
+            Page: Thunderwave
+            Page: Time Stop
+            Page: Tiny Hut
+            Page: Tongues
+            Page: Transport Via Plants
+            Page: Traveler's Ward
+            Page: Tree Stride
+            Page: True Polymorph
+            Page: True Resurrection
+            Page: True Seeing
+            Page: True Strike
+            Page: Unholy Star
+            Page: Unseen Servant
+            Page: Vampiric Touch
+            Page: Venomous Succor
+            Page: Vicious Mockery
+            Page: Wall of Fire
+            Page: Wall of Flesh
+            Page: Wall of Force
+            Page: Wall of Ice
+            Page: Wall of Stone
+            Page: Wall of Thorns
+            Page: Warding Bond
+            Page: Warriors Instincts
+            Page: Water Breathing
+            Page: Water Walk
+            Page: Web
+            Page: Weird
+            Page: Whirlwind Kick
+            Page: Wind Up
+            Page: Wind Walk
+            Page: Wind Wall
+            Page: Wish
+            Page: Word of Recall
+            Page: Wormway
+            Page: Writhing Transformation
+            Page: Zone of Truth
+    Chapter: Conditions
+        Page: Conditions
+        Page: Tracked Conditions
+        Page: Mental Stress
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+          
+    
+
+    
+
+
+        

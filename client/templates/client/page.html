@@ -1,0 +1,99 @@
+{% extends 'layouts/client.html' %}
+{% load markdown_tags %}
+
+{% block content_left %}
+    {{ page.content|markdown }}
+{% endblock %}
+
+{% block content_right %}
+    <div class="chapter-index" x-data="{ openChapter: null, openPage: null }">
+        <h1>{{ book.title }}</h1>
+        <ul>
+            {% for pg in pages %}
+                <li{% if pg.id == page.id %} class="active"{% endif %}>
+                    {% if pg.subpages.exists %}
+                        <div class="flex items-center">
+                            <button @click="openPage = openPage === 'book-{{ pg.id }}' ? null : 'book-{{ pg.id }}'" class="mr-2 cursor-pointer">
+                                <span x-show="openPage !== 'book-{{ pg.id }}'">▶</span>
+                                <span x-show="openPage === 'book-{{ pg.id }}'">▼</span>
+                            </button>
+                            <a href="{% url 'client:page' book.slug pg.slug %}">{{ pg.title }}</a>
+                        </div>
+                        <ul x-show="openPage === 'book-{{ pg.id }}'" x-collapse>
+                            {% for subpg in pg.subpages.all %}
+                                <li{% if subpg.id == page.id %} class="active"{% endif %}>
+                                    <a href="{% url 'client:page' book.slug subpg.slug %}">{{ subpg.title }}</a>
+                                </li>
+                            {% endfor %}
+                        </ul>
+                    {% else %}
+                        <a href="{% url 'client:page' book.slug pg.slug %}">{{ pg.title }}</a>
+                    {% endif %}
+                </li>
+            {% endfor %}
+            
+            {% for ch in chapters %}
+                <li x-data="{ open: false }" x-init="open = {{ page.chapter.id|default:'null' }} === {{ ch.id }}">
+                    <div class="flex items-center">
+                        <button @click="open = !open; openChapter = open ? {{ ch.id }} : null" class="mr-2 cursor-pointer">
+                            <span x-show="!open">▶</span>
+                            <span x-show="open">▼</span>
+                        </button>
+                        {% if ch.first_page %}
+                            <strong><a href="{% url 'client:page_with_chapter' book.slug ch.slug ch.first_page.slug %}">{{ ch.title }}</a></strong>
+                        {% else %}
+                            <strong>{{ ch.title }}</strong>
+                        {% endif %}
+                    </div>
+                    <ul x-show="open" x-collapse>
+                        {% for pg in ch.pages.all %}
+                            {% if not pg.parent %}
+                                <li{% if pg.id == page.id %} class="active"{% endif %}>
+                                    {% if pg.subpages.exists %}
+                                        <div x-data="{ pageOpen: false }" x-init="pageOpen = {{ page.id }} === {{ pg.id }} || {{ page.parent.id|default:'null' }} === {{ pg.id }} || {{ page.parent.parent.id|default:'null' }} === {{ pg.id }}">
+                                            <div class="flex items-center">
+                                                <button @click="pageOpen = !pageOpen" class="mr-2 cursor-pointer">
+                                                    <span x-show="!pageOpen">▶</span>
+                                                    <span x-show="pageOpen">▼</span>
+                                                </button>
+                                                <a href="{% url 'client:page_with_chapter' book.slug ch.slug pg.slug %}">{{ pg.title }}</a>
+                                            </div>
+                                            <ul x-show="pageOpen" x-collapse>
+                                                {% for subpg in pg.subpages.all %}
+                                                    <li{% if subpg.id == page.id %} class="active"{% endif %}>
+                                                        {% if subpg.subpages.exists %}
+                                                            <div x-data="{ subPageOpen: false }" x-init="subPageOpen = {{ page.id }} === {{ subpg.id }} || {{ page.parent.id|default:'null' }} === {{ subpg.id }}">
+                                                                <div class="flex items-center">
+                                                                    <button @click="subPageOpen = !subPageOpen" class="mr-2 cursor-pointer">
+                                                                        <span x-show="!subPageOpen">▶</span>
+                                                                        <span x-show="subPageOpen">▼</span>
+                                                                    </button>
+                                                                    <a href="{% url 'client:page_with_chapter' book.slug ch.slug subpg.slug %}">{{ subpg.title }}</a>
+                                                                </div>
+                                                                <ul x-show="subPageOpen" x-collapse>
+                                                                    {% for subsubpg in subpg.subpages.all %}
+                                                                        <li{% if subsubpg.id == page.id %} class="active"{% endif %}>
+                                                                            <a href="{% url 'client:page_with_chapter' book.slug ch.slug subsubpg.slug %}">{{ subsubpg.title }}</a>
+                                                                        </li>
+                                                                    {% endfor %}
+                                                                </ul>
+                                                            </div>
+                                                        {% else %}
+                                                            <a href="{% url 'client:page_with_chapter' book.slug ch.slug subpg.slug %}">{{ subpg.title }}</a>
+                                                        {% endif %}
+                                                    </li>
+                                                {% endfor %}
+                                            </ul>
+                                        </div>
+                                    {% else %}
+                                        <a href="{% url 'client:page_with_chapter' book.slug ch.slug pg.slug %}">{{ pg.title }}</a>
+                                    {% endif %}
+                                </li>
+                            {% endif %}
+                        {% endfor %}
+                    </ul>
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
+{% endblock %}

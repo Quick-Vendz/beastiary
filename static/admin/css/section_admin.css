@@ -1,0 +1,6 @@
+/* Make Page content textarea larger and resizable */
+.model-page textarea {
+    height: 600px !important;
+    min-height: 600px !important;
+    resize: vertical !important;
+}

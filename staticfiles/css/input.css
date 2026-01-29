@@ -1,1 +1,168 @@
 @import 'tailwindcss';
+
+@layer base {
+  h1 {
+    @apply text-2xl font-bold mb-6 text-gray-900;
+  }
+
+
+  /* Section titles from database */
+  .section-title {
+    @apply text-3xl font-bold mb-6 mt-8 text-gray-900 border-b-2 border-gray-300 pb-2;
+  }
+
+  /* Page titles from database */
+  .page-title {
+    @apply text-2xl font-semibold mb-4 mt-6 text-gray-800;
+  }
+
+  /* Highlight effect when navigating to sections/pages */
+  :target {
+    animation: highlight 2s ease-out;
+  }
+
+  @keyframes highlight {
+    0% {
+      background-color: #fef08a;
+    }
+    100% {
+      background-color: transparent;
+    }
+  }
+
+  .markdown {
+    @apply text-base leading-relaxed text-gray-800;
+  }
+
+  .markdown h1 {
+    @apply text-4xl font-bold mb-4 text-gray-900;
+  }
+
+  .markdown h2 {
+    @apply text-3xl font-bold mt-6 mb-3 text-gray-900;
+  }
+
+  .markdown h3 {
+    @apply text-2xl font-semibold mt-5 mb-2 text-gray-900;
+  }
+
+  .markdown h4 {
+    @apply text-xl font-semibold mt-4 mb-2 text-gray-900;
+  }
+
+  .markdown h5 {
+    @apply text-lg font-semibold mt-3 mb-2 text-gray-900;
+  }
+
+  .markdown h6 {
+    @apply text-base font-semibold mt-3 mb-2 text-gray-900;
+  }
+
+  .markdown p {
+    @apply mb-4;
+  }
+
+  .markdown a {
+    @apply text-blue-600 hover:text-blue-800 underline;
+  }
+
+  .markdown ul {
+    @apply list-disc list-inside mb-4 ml-4;
+  }
+
+  .markdown ol {
+    @apply list-decimal list-inside mb-4 ml-4;
+  }
+
+  .markdown li {
+    @apply mb-1;
+  }
+
+  .markdown blockquote {
+    @apply border-l-4 border-gray-300 pl-4 italic my-4 text-gray-700;
+  }
+
+  .markdown code {
+    @apply bg-gray-100 text-red-600 px-2 py-1 rounded text-sm font-mono;
+  }
+
+  .markdown pre {
+    @apply bg-gray-900 text-gray-100 p-4 rounded overflow-x-auto mb-4;
+  }
+
+  .markdown pre code {
+    @apply bg-transparent text-gray-100 p-0;
+  }
+
+  .markdown table {
+    @apply w-full border-collapse mb-4;
+  }
+
+  /* Hide empty table header rows */
+  .markdown thead tr:has(th:empty):has(th:not(:empty)) {
+    display: none;
+  }
+  
+  .markdown thead tr:not(:has(th:not(:empty))) {
+    display: none;
+  }
+
+  .markdown th {
+    @apply bg-gray-100 border border-gray-300 px-4 py-2 text-left font-semibold;
+  }
+  
+  /* Hide individual empty th cells */
+  .markdown th:empty {
+    display: none;
+  }
+
+  .markdown td {
+    @apply border border-gray-300 px-4 py-2;
+  }
+
+  .markdown hr {
+    @apply my-8 border-t border-gray-300;
+  }
+
+  .markdown img {
+    @apply max-w-full h-auto my-4 rounded;
+  }
+
+  .markdown strong {
+    @apply font-bold;
+  }
+
+  .markdown em {
+    @apply italic;
+  }
+
+  /* Chapter navigation index styles */
+  .chapter-index ul {
+    @apply list-none mb-2;
+  }
+
+  .chapter-index li {
+    @apply mb-1;
+  }
+
+  .chapter-index a {
+    @apply text-gray-700 hover:text-indigo-600 no-underline;
+  }
+
+  .chapter-index li.active > a {
+    @apply text-indigo-600 font-semibold;
+  }
+
+  /* Nested list indentation */
+  .chapter-index ul ul {
+    @apply ml-4 mt-1;
+  }
+
+  .chapter-index ul ul ul {
+    @apply ml-4 mt-1;
+  }
+
+  .chapter-index strong {
+    @apply font-semibold text-gray-900;
+  }
+}
